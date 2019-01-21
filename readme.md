@@ -2,13 +2,13 @@
 
 ## Key configurations
 
-tsconfig.json
+tsconfig.json:
 
-    Compiler option `"declaration": true` generates corresponding definition files (`*.d.ts`) to output directory. 
+- Compiler option `"declaration": true` generates corresponding definition files (`*.d.ts`) to output directory. 
 
-webpack.config.js
+webpack.config.js:
 
-    Output: `libraryTarget: 'umd'` - This exposes your library under all the module definitions, allowing it to work with CommonJS, AMD and as global variable, (library name must be specified). See [Authoring a Library](https://webpack.js.org/guides/author-libraries/).
+- Output: `libraryTarget: 'umd'` - This exposes your library under all the module definitions, allowing it to work with CommonJS, AMD and as global variable, (library name must be specified). See [Authoring a Library](https://webpack.js.org/guides/author-libraries/).
 
 ## Build library
 
